@@ -1,0 +1,29 @@
+development:
+  sessions:
+    default:
+      database: angular_todo_app_development
+      hosts:
+        - localhost:27017
+
+test:
+  sessions:
+    default:
+      database: angular_todo_app_test
+      host: localhost
+      port: 27017
+
+staging:
+  sessions:
+    default:
+      uri: <%= ENV['MONGOLAB_URI'] %>
+      options:
+        safe: true
+        skip_version_check: true
+
+production:
+  sessions:
+    default:
+      uri: <%= ENV['MONGOLAB_URI'] %>
+      options:
+        safe: true
+        skip_version_check: true
