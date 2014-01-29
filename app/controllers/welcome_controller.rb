@@ -1,5 +1,3 @@
-class WelcomeController < ActionController::Base
-  def index
-    render text: 'WELCOME!'
-  end
+class WelcomeController < ApplicationController
+  def index; end
 end
