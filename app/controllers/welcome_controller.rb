@@ -4,4 +4,5 @@ class WelcomeController < ApplicationController
   def contacts; end
   def filter; end
   def custom_filter; end
+  def kontacts; end
 end
