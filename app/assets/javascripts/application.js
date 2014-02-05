@@ -14,4 +14,8 @@
 //= require jquery_ujs
 //= require angular.min
 //= require angular-resource.min
-//= require_tree .
+//= require playground
+//= require contacts
+//= require filter
+//= require custom_filter
+//= require custom_directive
