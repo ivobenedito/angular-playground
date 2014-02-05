@@ -1,0 +1,21 @@
+<div ng-controller="FilterController">
+  <ul>
+    <li>{{price | currency:'€'}}</li>
+    <li>{{amount | number:4}}</li>
+    <li>{{message | uppercase}}</li>
+    <li>{{message | lowercase}}</li>
+    <li>{{date | date:'yyyy-MM-dd'}}</li>
+  </ul>
+
+  <ul>
+    <li ng-repeat="name in names | limitTo: 3">
+      {{name}}
+    </li>
+  </ul>
+
+  <ul>
+    <li ng-repeat="person in people | orderBy:'firstname'">
+      {{person.firstname}} {{person.lastname}}
+    </li>
+  </ul>
+</div>
