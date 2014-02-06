@@ -19,3 +19,4 @@
 //= require filter
 //= require custom_filter
 //= require custom_directive
+//= require kontacts
