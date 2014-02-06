@@ -1,0 +1,31 @@
+<h2>Editing {{contact.first_name}} {{contact.last_name}}</h2>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th>Email</th>
+    <th>Number</th>
+  </tr>
+
+  <tr>
+    <td>
+      <input ng-model="contact.first_name">
+    </td>
+    <td>
+      <input ng-model="contact.last_name">
+    </td>
+    <td>
+      <input ng-model="contact.email">
+    </td>
+    <td>
+      <input ng-model="contact.number">
+    </td>
+  </tr>
+</table>
+
+<h4>Notes</h4>
+<textarea ng-model="contact.notes" cols="30" rows="10"></textarea>
+
+<br />
+<a href="/contacts">Back to list</a>
