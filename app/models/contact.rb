@@ -6,4 +6,8 @@ class Contact
   field :last_name,  type: String
   field :email,      type: String
   field :number,     type: Integer
+
+  def slug
+    "#{first_name} #{last_name}".parameterize
+  end
 end
