@@ -66,6 +66,7 @@ GEM
       connection_pool (~> 1.2)
       optionable (~> 0.2.0)
     multi_json (1.8.4)
+    oj (2.5.4)
     optionable (0.2.0)
     origin (2.1.0)
     polyglot (0.3.3)
@@ -129,6 +130,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jquery-rails
   mongoid!
+  oj
   rabl
   rails (= 4.0.2)
   sass-rails (~> 4.0.0)
