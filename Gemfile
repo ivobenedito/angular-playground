@@ -16,3 +16,9 @@ gem 'turbolinks'
 group :doc do
   gem 'sdoc', require: false
 end
+
+group :development, :test do
+  gem 'pry'
+  gem 'pry-byebug'
+  gem 'pry-coolline'
+end
