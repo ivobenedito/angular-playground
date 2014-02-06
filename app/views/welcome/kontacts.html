@@ -5,20 +5,7 @@
   th { text-align: left; }
 </style>
 
-<div ng-controller="KontactsController">
+<div>
   <h1>Contacts</h1>
-
-  <table>
-    <tr>
-      <th>Name</th>
-      <th>Email</th>
-      <th>Number</th>
-    </tr>
-
-    <tr ng-repeat="contact in contacts">
-      <td>{{contact.name.first}} {{contact.name.last}}</td>
-      <td>{{contact.email}}</td>
-      <td>{{contact.number}}</td>
-    </tr>
-  </table>
+  <div ng-view></div>
 </div>
