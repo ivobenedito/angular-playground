@@ -5,7 +5,7 @@ module Api
     end
 
     def create
-      @contact = Contact.create(contact_parms)
+      @contact = Contact.create(contact_params)
     end
 
     def show
@@ -18,7 +18,7 @@ module Api
     end
 
     def contact_params
-      params.require(:contact).permit(:name, :email, :number)
+      params.require(:contact).permit(:first_name, :last_name, :email, :number, :notes)
     end
 
   end
