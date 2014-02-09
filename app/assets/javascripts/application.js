@@ -12,8 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require angular.min
-//= require angular-resource.min
+//= require angular
+//= require angular-resource
+//= require angular-route
 //= require playground
 //= require contacts
 //= require filter
