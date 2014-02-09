@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-AngularTodoApp::Application.config.secret_key_base = '0d5bb96899d024dca052af666f987cc8003c13f7453fe7f50def4262c33a8fc5ca18b4348b9927191af25cff0a92c18c9f8cf18550e8250f8201564738eec2d9'
+AngularPlayground::Application.config.secret_key_base = '0d5bb96899d024dca052af666f987cc8003c13f7453fe7f50def4262c33a8fc5ca18b4348b9927191af25cff0a92c18c9f8cf18550e8250f8201564738eec2d9'

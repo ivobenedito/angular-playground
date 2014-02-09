@@ -1,4 +1,4 @@
-AngularTodoApp::Application.routes.draw do
+AngularPlayground::Application.routes.draw do
   root 'welcome#index'
 
   get 'playground',       to: 'welcome#playground'

@@ -2,4 +2,4 @@
 require File.expand_path('../application', __FILE__)
 
 # Initialize the Rails application.
-AngularTodoApp::Application.initialize!
+AngularPlayground::Application.initialize!

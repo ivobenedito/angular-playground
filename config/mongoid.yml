@@ -1,14 +1,14 @@
 development:
   sessions:
     default:
-      database: angular_todo_app_development
+      database: angular_playground_development
       hosts:
         - localhost:27017
 
 test:
   sessions:
     default:
-      database: angular_todo_app_test
+      database: angular_playground_test
       host: localhost
       port: 27017
 
