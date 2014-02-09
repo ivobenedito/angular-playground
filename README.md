@@ -1,4 +1,6 @@
-angular-todo-app
-================
+angular-playground
+==================
 
-Rails + AngularJS (demo app)
+My own AngularJS playground. 
+
+Stuff in use: #angularjs #ruby #rails #mongo
